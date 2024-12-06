@@ -1,0 +1,5 @@
+
+input_str = "sahil"
+
+char_count = {char: input_str.count(char) for char in set(input_str)}
+print("Character Count:", char_count)

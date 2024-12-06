@@ -1,0 +1,7 @@
+
+sample_dict = {1: "Apple", 2: "Banana", 3: "Cherry"}
+
+
+print("Key   Value")
+for key, value in sample_dict.items():
+    print(f"{key}   {value}")
