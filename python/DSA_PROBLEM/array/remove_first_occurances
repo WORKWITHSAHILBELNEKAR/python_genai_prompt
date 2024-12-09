@@ -1,9 +1,9 @@
 arr = [10, 20, 30, 40, 50]
 
-# Specify an element to remove
+
 element_to_remove = 30
 
-# Remove the first occurrence
+
 if element_to_remove in arr:
     arr.remove(element_to_remove)
     print(f"Array after removing {element_to_remove}:", arr)
